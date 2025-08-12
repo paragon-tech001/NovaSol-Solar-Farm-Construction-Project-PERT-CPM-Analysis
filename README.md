@@ -38,11 +38,18 @@ solar-farm-project/
 - **Critical path analysis** helps prioritize high-impact activities.  
 
 ## 📋 Activity Mapping  
-| Activity | Real-World Task                  | Predecessors | Optimistic (a) | Most Likely (m) | Pessimistic (b) |
-|----------|----------------------------------|--------------|----------------|------------------|------------------|
-| A        | Land Survey & Permitting         | None         | 2              | 2                | 8                |
-| B        | Solar Panel Procurement          | None         | 1              | 2                | 3                |
-| ...      | ...                              | ...          | ...            | ...              | ...              |
+
+| Activity | Predecessor(s) | Duration (weeks) | Real-Life Task Description                                   |
+|----------|----------------|------------------|-------------------------------------------------------------|
+| A        | –              | 2                | Land Survey & Permitting (Securing approvals and land assessment) |
+| B        | –              | 1                | Procurement of Solar Panels (Ordering panels from suppliers) |
+| C        | –              | 1                | Grid Connection Feasibility Study (Analyzing power grid integration) |
+| D        | A              | 1                | Site Clearing & Grading (Preparing land for installation)   |
+| E        | B              | 1                | Inverter Installation (Setting up power conversion units)    |
+| F        | B              | 1                | Mounting Structure Assembly (Building frames for panels)     |
+| G        | C              | 1                | Substation Construction (Building infrastructure for grid tie-in) |
+| H        | D, E, F, G     | 6                | Solar Panel Installation & Wiring (Final setup and connectivity) |
+| I        | F, G           | 1                | Testing & Commissioning (Quality checks and trial runs)     |
 
 # 📐 Methodology: PERT/CPM Analysis
 
